@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+}
+
+.outer-box {
+  border: 3px solid tomato;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+}
+
+.outer-box .inner-box {
+  background-color: turquoise;
+  width: 100px;
+  height: 100px;
+  transition: 1s;
+}
+
+.outer-box .inner-box:hover {
+  /* transform: scaleX(2); */
+  /* transform: scaleY(2); */
+  /* transform: scale(2); */
+
+  /* transform: translateX(50px); */
+  /* transform: translateY(50px); */
+  /* transform: translate(200px, 100px); */
+
+  /* transform: rotateX(90deg); */
+  /* transform: rotateY(90deg); */
+  transform: rotate(90deg);
+
+  /* transform: skewX(50deg); */
+  /* transform: skewY(50deg); */
+  /* transform: skew(-45deg); */
+
+  /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+
+  transform-origin: center;
+}
